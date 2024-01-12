@@ -1,0 +1,104 @@
+.upc {
+    width: 350px;
+    margin: 20px;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    /* Hover effect */
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.gradient {
+    background-image: linear-gradient(hwb(261 17% 26%), rgb(102, 48, 102));
+    height: 135px;
+    border-radius: 8px 8px 0 0;
+}
+
+.profile-down img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: -75px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    /* Hover effect */
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.profile-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #333; /* Adjust text color */
+    font-family: 'Montserrat', sans-serif; /* Change font family */
+}
+
+.profile-description {
+    padding: 20px;
+    font-size: 20px;
+    color: #000000; /* Adjust text color */
+}
+
+.profile-button {
+    font-size: 16px;
+    background: #663066;
+    color: #fff;
+    margin: 10px auto;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+    /* Hover effect */
+    &:hover {
+        background: #511c52;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .upc {
+        width: 100%;
+    }
+}
+
+/* UserProfileCard.css */
+/* ... (existing styles) ... */
+
+.profile-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 35px;
+    margin-right: 24px;
+    
+    color: #663066;
+    transition: transform 0.3s ease-in-out;
+    
+    &:hover {
+        transform: scale(1.1);
+        color: #663066;
+    }
+}
+
+/* ... (existing styles) ... */
